@@ -1,0 +1,36 @@
+{
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "name": "cts-template",
+  "version": "1.0.0",
+  "description": "A template to simplify setting up your bot structure.",
+  "main": "src/index.ts",
+  "dependencies": {
+    "acorn": "^8.12.0",
+    "acorn-walk": "^8.3.3",
+    "arg": "^4.1.3",
+    "colors": "^1.4.0",
+    "create-require": "^1.1.1",
+    "diff": "^4.0.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "ioredis": "^5.4.1",
+    "make-error": "^1.3.6",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4",
+    "undici-types": "^5.26.5",
+    "v8-compile-cache-lib": "^3.0.1",
+    "yn": "^3.1.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "tenfy",
+  "license": "MIT"
+}
