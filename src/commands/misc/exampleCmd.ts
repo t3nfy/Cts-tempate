@@ -22,12 +22,13 @@ export default new Command(
             await interaction.reply({
                 content: "This is example message!",
                 components: [
-                    new ActionRowBuilder<ButtonBuilder>().setComponents(
-                        new ButtonBuilder()
-                            .setCustomId("exampleBtn")
-                            .setLabel("Example")
-                            .setStyle(ButtonStyle.Primary)
-                    ),
+                    new ActionRowBuilder<ButtonBuilder>()
+                        .setComponents(
+                            new ButtonBuilder()
+                                .setCustomId("exampleBtn")
+                                .setLabel("Example")
+                                .setStyle(ButtonStyle.Primary)
+                        ),
                 ],
             });
         } catch (error) {

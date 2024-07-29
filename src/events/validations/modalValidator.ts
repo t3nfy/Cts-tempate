@@ -1,7 +1,7 @@
 import { Interaction, ModalSubmitInteraction } from "discord.js";
 import Client from "../../structures/Client";
 import Event from "../../structures/base/Event";
-import getComponents from "../../utils/components/getComponents";
+import getComponents from "../../structures/utils/components/getComponents";
 import { ModalRun } from "../../types/Component";
 import "colors";
 

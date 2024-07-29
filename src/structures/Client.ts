@@ -1,8 +1,8 @@
 import { Client as DJSClient, GatewayIntentBits, Partials } from "discord.js";
 import "dotenv/config";
-import EventHandler from "../handlers/EventHandler";
-import Db from "../db/Db";
-import Cache from "../db/Cache";
+import EventHandler from "./handlers/EventHandler";
+import Db from "./db/Db";
+import Cache from "./db/Cache";
 
 export default class Client extends DJSClient {
   constructor() {
@@ -20,6 +20,7 @@ export default class Client extends DJSClient {
 
   start() {
     this.events.load();
+    this.db.connect();
     this.login(process.env.BOT_TOKEN);
   }
 }

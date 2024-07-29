@@ -2,9 +2,7 @@ import mongoose, { Mongoose } from "mongoose";
 import "colors";
 
 export default class Db {
-  constructor(private mongoURI: string) {
-    this.connect();
-  }
+  constructor(private mongoURI: string) { }
 
   async connect(): Promise<boolean> {
     try {
@@ -13,6 +11,7 @@ export default class Db {
       const mongo: Mongoose = await mongoose.connect(this.mongoURI);
 
       if (!mongo) return false;
+      this.init();
       return true;
     } catch (error) {
       console.log("[error] Can't connect to db:".red);
@@ -21,8 +20,8 @@ export default class Db {
     }
   }
 
-  get connected(): boolean {
-    return mongoose.connection.readyState === 1;
+  async init(): Promise<void> {
+    console.log("[info] Connected to mongoose".green)
   }
 
   async disconnect(): Promise<void> {
@@ -33,7 +32,4 @@ export default class Db {
       console.log(error);
     }
   }
-
-  // other functions
-
 }

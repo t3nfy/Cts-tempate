@@ -1,5 +1,5 @@
-import Component from "../../structures/base/Component";
-import { ComponentType } from "../../types/Component";
+import Component from "../../base/Component";
+import { ComponentType } from "../../../types/Component";
 import getAllFiles from "../files/getAllFiles";
 import * as path from "path";
 

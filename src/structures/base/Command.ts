@@ -8,5 +8,5 @@ export default class Command {
     public options: CommandOptions,
 
     public run: CommandRun
-  ) {}
+  ) { }
 }

@@ -1,7 +1,7 @@
 import getAllFiles from "../utils/files/getAllFiles";
-import Client from "../structures/Client";
+import Client from "../Client";
 import * as path from "path";
-import Event from "../structures/base/Event";
+import Event from "../base/Event";
 import "colors";
 
 export default class EventHandler {

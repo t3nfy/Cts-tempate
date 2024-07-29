@@ -8,7 +8,4 @@ export default class Cache extends Redis {
       showFriendlyErrorStack: true,
     } as RedisOptions);
   }
-
-    // other functions
-
 }

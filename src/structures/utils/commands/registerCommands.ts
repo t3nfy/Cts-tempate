@@ -3,10 +3,10 @@ import {
     ApplicationCommandManager,
     Collection,
 } from "discord.js";
-import Client from "../../structures/Client";
+import Client from "../../Client";
 import getApplicationCommands from "./getApplicationCommands";
 import getLocalCommands from "./getLocalCommands";
-import Command from "../../structures/base/Command";
+import Command from "../../base/Command";
 import "colors";
 
 export default async (client: Client) => {

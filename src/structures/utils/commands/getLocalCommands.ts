@@ -1,4 +1,4 @@
-import Command from "../../structures/base/Command";
+import Command from "../../base/Command";
 import getAllFiles from "../files/getAllFiles";
 import * as path from "path";
 
