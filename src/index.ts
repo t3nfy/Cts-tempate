@@ -1,4 +1,4 @@
-import Client from "./structures/Client";
+import Client from "./structure/Client";
 
 console.clear();
 

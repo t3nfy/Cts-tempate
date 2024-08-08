@@ -5,8 +5,8 @@ import {
     ChatInputCommandInteraction,
     SlashCommandBuilder,
 } from "discord.js";
-import Client from "../../structures/Client";
-import Command from "../../structures/base/Command";
+import Client from "../../structure/Client";
+import Command from "../../structure/base/Command";
 import "colors";
 
 export default new Command(

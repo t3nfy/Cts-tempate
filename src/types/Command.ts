@@ -1,5 +1,5 @@
 import { Awaitable, ChatInputCommandInteraction } from "discord.js";
-import Client from "../structures/Client";
+import Client from "../structure/Client";
 
 export interface CommandOptions {
     enabled: boolean;

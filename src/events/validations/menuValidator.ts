@@ -1,7 +1,7 @@
 import { AnySelectMenuInteraction, Interaction } from "discord.js";
-import Client from "../../structures/Client";
-import Event from "../../structures/base/Event";
-import getComponents from "../../structures/utils/components/getComponents";
+import Client from "../../structure/Client";
+import Event from "../../structure/base/Event";
+import getComponents from "../../structure/utils/components/getComponents";
 import { MenuRun } from "../../types/Component";
 import "colors";
 

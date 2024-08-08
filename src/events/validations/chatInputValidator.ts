@@ -1,7 +1,7 @@
 import { Interaction } from "discord.js";
-import Client from "../../structures/Client";
-import getLocalCommands from "../../structures/utils/commands/getLocalCommands";
-import Event from "../../structures/base/Event";
+import Client from "../../structure/Client";
+import getLocalCommands from "../../structure/utils/commands/getLocalCommands";
+import Event from "../../structure/base/Event";
 import "colors";
 
 export default new Event(

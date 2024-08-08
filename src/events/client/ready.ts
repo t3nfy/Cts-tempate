@@ -1,6 +1,6 @@
-import Client from "../../structures/Client";
-import Event from "../../structures/base/Event";
-import registerCommands from "../../structures/utils/commands/registerCommands";
+import Client from "../../structure/Client";
+import Event from "../../structure/base/Event";
+import registerCommands from "../../structure/utils/commands/registerCommands";
 import "colors"
 
 export default new Event(

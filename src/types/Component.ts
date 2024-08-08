@@ -4,7 +4,7 @@ import {
     ButtonInteraction,
     ModalSubmitInteraction,
 } from "discord.js";
-import Client from "../structures/Client";
+import Client from "../structure/Client";
 
 export type ComponentType = "buttons" | "menus" | "modals";
 export type ButtonRun = (

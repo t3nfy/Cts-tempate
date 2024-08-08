@@ -1,6 +1,6 @@
 import { ButtonInteraction } from "discord.js";
-import Client from "../../structures/Client";
-import Component from "../../structures/base/Component";
+import Client from "../../structure/Client";
+import Component from "../../structure/base/Component";
 import "colors";
 
 export default new Component(
